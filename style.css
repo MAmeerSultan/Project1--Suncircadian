@@ -18,7 +18,7 @@ li{
 }
 .navbar-brand{
     font-weight: bold;
-    font-size: 30px;
+    font-size: 1.9rem;
     color: rgb(229, 171, 174);
     margin-right: 0px;
 }
@@ -37,11 +37,7 @@ li{
     padding: 9% 8% 0% 8% ;
     
 }
-@media (min-width: 800px) {
-    .content{
-        width: 80%;
-    }
-}
+
 .description{
          
      font-size: 2.3rem;                 /*     rgb(249, 223, 173) */
@@ -61,10 +57,14 @@ li{
         text-shadow: none;
     }
 }
-@media (max-width: 800px){
-    .description{
-        font-size: 1.6rem;
-    }
+@media (max-width:1000px) {
+   .description{
+    font-size: 1.8rem;
+   } 
+   .navbar-brand{
+    font-size: 1.4rem;
+   }
+
 }
 
 i{
@@ -80,6 +80,17 @@ i{
         margin: 10px auto;
         width: 200px;
     }
+    .content{
+        width: 100%;
+        padding: 9% 1% 9% 1%;
+    }
+    li{
+        
+        font-size: 1rem;
+        font-weight: 400;
+        
+    }
+    
 }
 .links{
     color: rgb(229, 171, 174);
