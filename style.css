@@ -1,0 +1,90 @@
+body{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+ul{
+    position: absolute;
+    right: 0;
+    
+}
+li{
+    margin: 0px 40px;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+.nav-bar{
+    padding: 0px 0px;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(229, 171, 174);
+    margin-right: 0px;
+}
+.navbar-brand:hover{
+    color: white;
+}
+.main{
+    background-image: url(images/sunset-photo.jpg);
+    text-align: center;
+    padding: 7% 9%;
+
+}
+.content{
+    
+    margin:0px auto;
+    padding: 9% 8% 0% 8% ;
+    
+}
+@media (min-width: 800px) {
+    .content{
+        width: 80%;
+    }
+}
+.description{
+         
+     font-size: 2.3rem;                 /*     rgb(249, 223, 173) */
+    margin-bottom: 0px;
+    font-weight: bolder;
+    background-clip: text;
+    
+    animation: transparency 3s forwards;
+}
+@keyframes transparency {
+    from{
+        color: transparent ; 
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);    
+    }
+    to{
+        color:rgb(249, 223, 173) ;
+        text-shadow: none;
+    }
+}
+@media (max-width: 800px){
+    .description{
+        font-size: 1.6rem;
+    }
+}
+
+i{
+    margin-right: 5px;
+}
+.download-button{
+    padding: 7px;
+    margin: 6% 2%;
+}
+@media (max-width:800px){
+    .download-button{
+        display: block;
+        margin: 10px auto;
+        width: 200px;
+    }
+}
+.links{
+    color: rgb(229, 171, 174);
+}
+.links:hover{
+    color: white;
+
+}
