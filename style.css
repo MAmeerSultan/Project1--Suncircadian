@@ -91,6 +91,9 @@ i{
         
     }
     
+    .testomonials-content{
+        font-size: 1.3rem;
+    }
 }
 .links{
     color: rgb(229, 171, 174);
@@ -101,9 +104,9 @@ i{
 }
 .medium-section{
     text-align: center;
-    padding: 30px 0px;
+    padding: 5% 3%;
     background-color:  rgb(20, 20, 20);
-    color: rgba(240, 203, 139, 0.705);
+    color: white;
 
 }
 
@@ -124,5 +127,15 @@ i{
     font-weight: 600;
 }
 .bottom-section{
-
+    text-align: center;
+    color: white;
+    background-image: url(images/sunset-photo.jpg);
+    
+}
+.carousel-item{
+    padding: 5% 16%;
+    
+}
+.testomonials-content{
+    margin-bottom: 3%;
 }
